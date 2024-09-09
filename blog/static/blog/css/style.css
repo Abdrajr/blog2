@@ -1,0 +1,145 @@
+ .backMage{ 
+
+    background-size: cover;
+  min-height: 100vh;
+}
+
+/* Links styling */
+a { 
+    color: #00abff;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for better accessibility */
+}
+
+/* Header styling */
+h1 { 
+    font-weight: normal;
+    border-bottom: 2px solid #00abff; /* Adjusted border color to match the theme */
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 30px 0 0;
+    color: #00abff; /* Light blue for contrast against the dark background */
+}
+
+/* Content area styling */
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px; /* Increased padding for more space around the content */
+}
+
+#content { 
+    width: 65%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7); /* Slightly lighter transparency for better readability */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Added shadow for depth */
+}
+
+#sidebar { 
+    width: 30%;
+    padding: 30px;
+    background: rgba(50, 50, 50, 0.7); /* Adjusted transparency for sidebar */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Added shadow for depth */
+}
+
+/* Date styling */
+p.date { 
+    color: #cccccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* Pagination styling */
+.pagination { 
+    margin: 40px 0; 
+    font-weight: bold;
+    text-align: center; /* Center the pagination */
+}
+
+.pagination a {
+    color: #00abff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 4px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.pagination a:hover {
+    background: #00abff;
+    color: #ffffff;
+}
+
+/* Forms styling */
+label { 
+    float: left;
+    clear: both;
+    color: #ffffff;
+    margin-bottom: 4px; 
+}
+
+input, textarea { 
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    background: #333333; /* Dark background for input fields */
+    border: 1px solid #555555;
+    color: #9d0e0e;
+    padding: 10px; /* Increased padding for better usability */
+    font-size: 14px;
+    width: 100%; /* Make inputs full width */
+}
+
+input[type=submit] {
+    font-weight: bold;
+    background: #00abff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase; 
+    border: none;
+    cursor: pointer;
+    width: auto; /* Auto width for the submit button */
+    transition: background 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background: #008fd4; /* Darker shade on hover */
+}
+
+/* Error messages styling */
+.errorlist { 
+    color: #cc0033;
+    float: left;
+    clear: both;
+    padding-left: 10px; 
+}
+
+/* Comments styling */
+.comment {
+    padding: 15px; /* Added more padding for better spacing */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for comments */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); /* Added shadow for depth */
+}
+
+.comment:nth-child(even) {
+    background: rgba(50, 50, 50, 0.6);
+}
+
+.comment .info {
+    font-weight: bold;
+    font-size: 12px;
+    color: #cccccc;
+    margin-bottom: 5px;
+}
